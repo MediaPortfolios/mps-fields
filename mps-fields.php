@@ -86,7 +86,7 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
  * @return string Returns the plugin path of the parent.
  */
 if ( ! defined( 'MPF_PARENT' ) ) {
-	define( 'MPF_PARENT', 'prod-port/prod-port.php' );
+	define( 'MPF_PARENT', 'mps-base/mps-base.php' );
 }
 
 /**
